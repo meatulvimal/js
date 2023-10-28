@@ -31,3 +31,29 @@ const myFunction=function(){
 }
 
 console.log(typeof scoreValue);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myChannel = "brainy"
+
+let anotherName = myChannel
+anotherName = "chaiaurcode"
+
+console.log(myChannel);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"acs@apl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
